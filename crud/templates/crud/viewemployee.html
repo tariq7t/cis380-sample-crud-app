@@ -1,0 +1,14 @@
+{% extends 'crud/base.html' %}
+
+{% block content %}
+{{error}}
+
+{{employee.name}}
+<form method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit" class="btn btn-warning">Save</button>
+</form>
+
+
+{% endblock %}

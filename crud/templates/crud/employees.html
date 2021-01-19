@@ -1,0 +1,40 @@
+
+{% extends 'crud/base.html' %}
+
+{% block content %}
+<a href="{% url 'home' %}">Home</a>
+
+<td><a href="{% url 'create' %}">
+   <button type="submit" class="btn btn-warning">Create</button></a></td>
+
+  
+   <table class="table">
+      <thead>
+        <tr>
+
+          <th scope="col">Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Phone</th>
+ 
+        </tr>
+      </thead>
+      <tbody>
+         {% for employee in employees %}
+        <tr>
+          <td>{{employee.name}}</td>
+          <td>{{employee.email}}</td>
+          <td>{{employee.phone}}</td>
+          <td><a href="{% url 'viewemployee' employee.id %}">
+             <button type="submit" class="btn btn-primary">Edit</button></a></td>
+          <td><form method="POST" action= "{% url 'deleteemployee' employee.id %}">
+           {% csrf_token %}
+           <button  type="submit" class="btn btn-danger">Delete</button>
+       </form></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+ 
+
+
+{% endblock %}
