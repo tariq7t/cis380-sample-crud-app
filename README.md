@@ -5,3 +5,12 @@ To get started, you will need the following installed in your machine:
 - pip
 - Django3
 - Any code editor( preferably VS Code or Sublime)
+
+
+Go to your terminal and clone this repo:
+
+- git clone https:
+- cd to the project folder
+- run python3 manage.py runserver in the terminal
+- go to localhost:8000/ on your browser
+
