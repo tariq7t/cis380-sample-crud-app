@@ -14,3 +14,13 @@ Go to your terminal and clone this repo:
 - run python3 manage.py runserver in the terminal
 - go to localhost:8000/ on your browser
 
+Create an app with a view:
+
+- Create an app
+- Create a template
+- Create a view, connect to template
+- Create a url path, connect to view
+- Go to url 
+
+
+
