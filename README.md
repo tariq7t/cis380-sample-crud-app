@@ -4,6 +4,7 @@ To get started, you will need the following installed in your machine:
 - Python3 : https://www.python.org/downloads/
 - Django3 : https://www.djangoproject.com/download/
 - Any code editor( preferably VS Code or Sublime)
+- Make sure Git is installed in your machine. To verify, go to your terminal and type "git --version". If a version is returned, you have it installed. If the command is not recognized, you need to install git. To install git, visit https://git-scm.com/downloads
 
 
 ## Go to your terminal and clone this repo:
