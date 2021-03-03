@@ -10,6 +10,6 @@ To get started, you will need the following installed in your machine:
 
 - Type the following in your terminal:$ git clone https://github.com/kruse380/cis380-sample-crud-app.git
 - cd to the project folder "cis380-sample-crud-app"
-- Once inside, type the following in your terminal:$ run python3 manage.py runserver
+- Once inside, type the following in your terminal:$ python3 manage.py runserver
 - go to "localhost:8000/" on your browser. Your application should be running now!
 
