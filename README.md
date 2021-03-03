@@ -1,5 +1,6 @@
 # cis380-sample-crud-app
 This is a Django web application for the Systems Analysis & Design Patterns class that contains basic CRUD functionalities. This was created for use by students of CIS 380 - Systems Analysis &amp; Design course.
+The project uses Django framework, which is built on Python. It is connected with SQLite, which is a lightweight relational database management system.
 To get started, you will need the following installed in your machine:
 - Python3 : https://www.python.org/downloads/
 - Django3 : https://www.djangoproject.com/download/
