@@ -6,12 +6,12 @@ To get started, you will need the following installed in your machine:
 - Any code editor( preferably VS Code or Sublime)
 
 
-Go to your terminal and clone this repo:
+## Go to your terminal and clone this repo:
 
-- git clone https:
+- Type the following in your terminal: git clone https://github.com/kruse380/cis380-sample-crud-app.git
 - cd to the project folder
-- run python3 manage.py runserver in the terminal
-- go to localhost:8000/ on your browser
+- Type the following in your terminal: run python3 manage.py runserver
+- go to localhost:8000/ on your browser. Your application should be running now!
 
 Create an app with a view:
 
