@@ -1,8 +1,8 @@
 # cis380-sample-crud-app
 This is a Django web application for the Systems Analysis & Design Patterns class that contains basic CRUD functionalities. This was created for use by students of CIS 380 - Systems Analysis &amp; Design course.
 To get started, you will need the following installed in your machine:
-- Python3
-- Django3
+- Python3 : https://www.python.org/downloads/
+- Django3 : https://www.djangoproject.com/download/
 - Any code editor( preferably VS Code or Sublime)
 
 
